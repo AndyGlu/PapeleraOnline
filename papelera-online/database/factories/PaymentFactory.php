@@ -2,10 +2,10 @@
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
 
-use App\user;
+use App\payment;
 use Faker\Generator as Faker;
 
-$factory->define(user::class, function (Faker $faker) {
+$factory->define(payment::class, function (Faker $faker) {
     return [
         //
     ];
